@@ -6,13 +6,13 @@ body {
     justify-content: center;
      
  
-    }
+  
  
     .Happy__Birthday {
       font-family: 'Great Vibes', cursive;
       color: #ffffff;
       font-size: 3.5em;
-      text-shadow: 2px 2px 5px rgba(250, 0, 0, 0.7);
+      text-shadow: 2px 2px 5px rgb(92, 13, 13);
       
   
     }
@@ -33,7 +33,7 @@ body {
      margin-bottom: 20px;
      width: 80%;
      max-width: 600px;
-  
+    align-items: center;
   }
 
   footer{
@@ -45,8 +45,8 @@ body {
 
    /* Estilo base do botão */
         .meu-botao {
-            background-color: #4CAF50; /* Cor de fundo */
-            color: white; /* Cor do texto */
+            background-color: #ffffff; /* Cor de fundo */
+            color: rgb(15, 9, 9); /* Cor do texto */
             padding: 12px 24px; /* Espaçamento interno */
             border: none; /* Remove borda padrão */
             border-radius: 8px; /* Bordas arredondadas */
@@ -58,13 +58,14 @@ body {
 
         /* Efeito ao passar o mouse */
         .meu-botao:hover {
-            background-color: #45a049; /* Cor mais escura */
+            background-color: #5a0e0e; /* Cor mais escura */
             transform: scale(1.05); /* Leve aumento */
         }
 
         /* Efeito ao clicar */
         .meu-botao:active {
-            background-color: #3e8e41;
+            background-color: #df0e0e;
             transform: scale(0.98); /* Leve redução */
         }
 
+  }
