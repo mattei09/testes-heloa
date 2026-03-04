@@ -68,7 +68,7 @@ body {
             transform: scale(0.98); /* Leve redução */
     }
  /* Container para centralizar e dar sombra */
-        .img-container {
+    .img-container {
             display: inline-block;
             padding: 10px;
             background: white;
@@ -77,7 +77,7 @@ body {
         }
 
         /* Imagem arredondada */
-        .img-redonda {
+    .img-redonda {
             width: 200px;           /* tamanho fixo */
             height: 200px;          /* mantém quadrada para arredondar */
             object-fit: cover;      /* corta a imagem para preencher */
@@ -87,7 +87,7 @@ body {
         }
 
         /* Efeito ao passar o mouse */
-        .img-redonda:hover {
+    .img-redonda:hover {
             transform: scale(1.05); /* aumenta levemente */
         }
 
