@@ -43,3 +43,28 @@ body {
     margin-top: 20px;
   }
 
+   /* Estilo base do botão */
+        .meu-botao {
+            background-color: #4CAF50; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            padding: 12px 24px; /* Espaçamento interno */
+            border: none; /* Remove borda padrão */
+            border-radius: 8px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor de mão */
+            font-size: 16px; /* Tamanho da fonte */
+            font-weight: bold; /* Texto em negrito */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Efeito ao passar o mouse */
+        .meu-botao:hover {
+            background-color: #45a049; /* Cor mais escura */
+            transform: scale(1.05); /* Leve aumento */
+        }
+
+        /* Efeito ao clicar */
+        .meu-botao:active {
+            background-color: #3e8e41;
+            transform: scale(0.98); /* Leve redução */
+        }
+
