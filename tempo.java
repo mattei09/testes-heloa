@@ -1,6 +1,6 @@
 
 <script>
-var dataAlvo = new Date("Jun 10, 2026 00:00:00").getTime();
+var dataAlvo = new Date("Mar 09, 2025 00:00:00").getTime();
 
 var x = setInterval(function() {
 
