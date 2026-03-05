@@ -45,11 +45,13 @@ body {
     font-size: 18px;
     color: #666666;
     text-align: left;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     width: 80%;
-     max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
     align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 
     .footer{
@@ -110,10 +112,13 @@ body {
             transform: scale(1.05); /* aumenta levemente */
         }
 
-        countdown{
-font-size: 40px;
-color: #ff4d6d;
-font-weight: bold;
+   #countdown{
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
 }
 
 

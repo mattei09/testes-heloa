@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-           <h1 class="h1">Nossos momentos 💖</h1>
+           <h1 class="h1">Nosso 1º ano juntos 💖</h1>
  <div class="img-container">
         <img src="H&M 06.PNG" alt="H&M" class="img-redonda">
         <img src="H&M 01.jpeg" alt="H&M" class="img-redonda">
@@ -20,30 +20,39 @@
         <img src="H&M 05.jpeg" alt="H&M" class="img-redonda">
     </div>
     
-    <h3 class="h3">Nosso 1º ano juntos ❤️</h3>
+    <p class="p">Hoje é um dia muito especial para nós, pois comemoramos nosso primeiro ano de namoro. Durante esse tempo, construímos uma história repleta de amor, companheirismo e momentos inesquecíveis. Cada dia ao seu lado tem sido uma aventura maravilhosa, e sou grata por cada sorriso, cada abraço e cada momento compartilhado. Que este seja apenas o começo de uma jornada longa e feliz juntos. Feliz aniversário de namoro, meu amor! Que venham muitos mais anos de felicidade.❤️</p>
     <h2 id="countdown"></h2>  
 </main>
- <script>
-var dataAlvo = new Date("Jun 10, 2026 00:00:00").getTime();
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+    
+        var dataAlvo = new Date("Mar 05, 2026 00:00:00").getTime();
 
-var x = setInterval(function() {
+        var x = setInterval(function() {
 
-  var agora = new Date().getTime();
-  var distancia = dataAlvo - agora;
+        var agora = new Date().getTime();
+        var distancia = dataAlvo - agora;
 
-  var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
-  var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
-  var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+        var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+        var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+        var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").innerHTML =
-  dias + "d " + horas + "h "
-  + minutos + "m " + segundos + "s ";
+        document.getElementById("countdown").innerHTML =
+        dias + "d " + horas + "h " + minutos + "m " + segundos + "s ";
 
-  if (distancia < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML =
-    "Feliz 1 ano de namoro ❤️";
+        if (distancia < 0) {
+        clearInterval(x);
+
+        document.getElementById("countdown").innerHTML =
+        "🎉 Feliz 1 ano de namoro";
+
+    // SOLTAR CONFETES
+    confetti({
+      particleCount: 200,
+      spread: 120,
+      origin: { y: 0.6 }
+    });
   }
 
 }, 1000);
