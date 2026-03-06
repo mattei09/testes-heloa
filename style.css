@@ -106,8 +106,8 @@ body {
 
         /* Imagem arredondada */
     .img-redonda {
-            width: 200px;           /* tamanho fixo */
-            height: 200px;          /* mantém quadrada para arredondar */
+            width: 80px;           /* tamanho fixo */
+            height: 80px;          /* mantém quadrada para arredondar */
             object-fit: cover;      /* corta a imagem para preencher */
             border-radius: 50%;     /* deixa circular */
             border: 4px solid #0c0303; /* borda verde */
