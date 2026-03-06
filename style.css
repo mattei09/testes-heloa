@@ -92,11 +92,13 @@ body {
             display: inline-block;
             padding: 10px;
             background: rgb(59, 2, 2);
-            border-radius: 15px;
+            border-radius: 50px;
             box-shadow: 0 4px 10px rgb(59, 59, 59);
             margin-top: 10px;
             margin-bottom: 10px;
             align-items: center;
+            flex-shrink: 0;
+            overflow-x: auto;
         }
 
         /* Imagem arredondada */
