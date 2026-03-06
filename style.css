@@ -89,7 +89,10 @@ body {
     }
  /* Container para centralizar e dar sombra */
     .img-container {
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Espaçamento entre as imagens */
+            flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
             padding: 10px;
             background: rgb(59, 2, 2);
             border-radius: 50px;
