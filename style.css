@@ -161,27 +161,5 @@ body {
     position: absolute;
     clip-path: path("M50 90 L10 50 A20 20 0 0 1 50 20 A20 20 0 0 1 90 50 Z");
 }
-@keyframes subir {
-    0%{
-        transform: translateY(100vh);
-    }
-
-    100%{
-        transform: translateY(-150px);
-    }
-}
-
-.c1{
-  animation: subir 5s linear infinite;
-}
-
-.c2{
-  animation: subir 3s linear infinite;
-}
-
-.c3{
-  animation: subir 2s linear infinite;
-}
-
 
   }
