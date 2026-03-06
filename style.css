@@ -172,15 +172,15 @@ body {
 }
 
 .c1{
-  animation: subir 10s linear infinite;
+  animation: subir 5s linear infinite;
 }
 
 .c2{
-  animation: subir 14s linear infinite;
+  animation: subir 3s linear infinite;
 }
 
 .c3{
-  animation: subir 18s linear infinite;
+  animation: subir 2s linear infinite;
 }
 
 
