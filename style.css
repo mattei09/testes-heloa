@@ -140,26 +140,26 @@ body {
   margin-bottom: 30px;
 }
 
+
 .lado-esquerdo{
     position: fixed;
     left: 20px;
-    bottom: 20px;
-    top: 0;
-    
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .lado-direito{
     position: fixed;
     right: 20px;
-    bottom: 20px;
-    top: 0;
-    }
-    
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .coracao{
-    width: 120px;
-    position: absolute;
+    width:100px;
+    margin:15px;
     clip-path: path("M50 90 L10 50 A20 20 0 0 1 50 20 A20 20 0 0 1 90 50 Z");
 }
+
 
   }
