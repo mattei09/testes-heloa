@@ -153,6 +153,7 @@ body {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+    z-index: -1;
 }
 
 .lado-direito{
@@ -160,6 +161,7 @@ body {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+    z-index: -1;
 }
 
 .coracao{
@@ -170,8 +172,7 @@ body {
 
   @media (max-width: 768px) {
     .coracao {
-    width: 35px;
-    margin: 5px;
+    width: 40px;
     }
   }
   }
