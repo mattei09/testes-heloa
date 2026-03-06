@@ -149,7 +149,7 @@ body {
 
 
 .lado-esquerdo{
-    position: fixed;
+    position: absolute;
     left: 20px;
     top: 100%;
     transform: translateY(-50%);
@@ -157,7 +157,7 @@ body {
 }
 
 .lado-direito{
-    position: fixed;
+    position: absolute;
     right: 20px;
     top: 100%;
     transform: translateY(-50%);
