@@ -143,33 +143,45 @@ body {
 .lado-esquerdo{
     position: fixed;
     left: 20px;
-    bottom: -200px;
-    display: flex;
-    flex-direction: column;
-    animation: subir 12s linear infinite;
+    bottom: 20px;
+    top: 0;
+    
 }
 
 .lado-direito{
     position: fixed;
     right: 20px;
-    bottom: -200px;
-    display: flex;
-    flex-direction: column;
-    animation: subir 14s linear infinite;
-}
+    bottom: 20px;
+    top: 0;
+    }
+    
 
 .coracao{
-    width: 150px;
-    margin: 20px;
+    width: 120px;
+    position: absolute;
     clip-path: path("M50 90 L10 50 A20 20 0 0 1 50 20 A20 20 0 0 1 90 50 Z");
 }
 @keyframes subir {
     0%{
-        transform: translateY(0);
+        transform: translateY(100vh);
     }
 
     100%{
-        transform: translateY(-120vh);
+        transform: translateY(-150px);
     }
 }
+
+.c1{
+  animation: subir 10s linear infinite;
+}
+
+.c2{
+  animation: subir 14s linear infinite;
+}
+
+.c3{
+  animation: subir 18s linear infinite;
+}
+
+
   }
