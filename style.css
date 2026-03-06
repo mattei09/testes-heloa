@@ -140,26 +140,36 @@ body {
   margin-bottom: 30px;
 }
 
-
 .lado-esquerdo{
     position: fixed;
     left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    animation: subir 12s linear infinite;
 }
 
 .lado-direito{
     position: fixed;
     right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    animation: subir 14s linear infinite;
 }
 
 .coracao{
-    width:100px;
-    margin:15px;
+    width: 150px;
+    margin: 20px;
     clip-path: path("M50 90 L10 50 A20 20 0 0 1 50 20 A20 20 0 0 1 90 50 Z");
 }
+@keyframes subir {
+    0%{
+        transform: translateY(0);
+    }
 
-
+    100%{
+        transform: translateY(-120vh);
+    }
+}
   }
